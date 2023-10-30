@@ -15,7 +15,7 @@ python = "^3.9"
 fastapi = "^0.98.0"
 boto3 = "^1.28.9"
 uvicorn = { version = "^0.22.0", extras = ["standard"] }
-pydantic = { version = "^1.10.11", extras = ["dotenv"] }
+pydantic = { version = "^1.10.13", extras = ["dotenv"] }
 yarl = "^1.9.2"
 ujson = "^5.8.0"
 sqlalchemy = { version = "^2.0.19", extras = ["mypy", "asyncio"] }
