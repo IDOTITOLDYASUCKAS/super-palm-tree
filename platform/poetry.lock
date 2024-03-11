@@ -1650,21 +1650,19 @@ crc32c = ["crc32c"]
 
 [[package]]
 name = "lanarky"
-version = "0.7.12"
-description = "Ship production-ready LLM projects with FastAPI"
+version = "0.7.17"
+description = "FastAPI framework to build production-grade LLM applications"
 optional = false
 python-versions = ">=3.9,<4.0"
 files = [
-    {file = "lanarky-0.7.12-py3-none-any.whl", hash = "sha256:79bcaede465f14e1f6f2a744e1e9427517ad0db001dbc02d88b6b4ef3d19d837"},
-    {file = "lanarky-0.7.12.tar.gz", hash = "sha256:9bf4658a02596837d1e11c435ff339cfa6376415b531f9c778052798f89336e7"},
+    {file = "lanarky-0.7.17-py3-none-any.whl", hash = "sha256:0d709eed7084d621cbb6f49f27d1718879692d9c15e7e45843629e3aca33f2c9"},
+    {file = "lanarky-0.7.17.tar.gz", hash = "sha256:f663e4e2fcce359abf44c20f4fc00522c078d972cb4185482f451a9a19abb464"},
 ]
 
 [package.dependencies]
 fastapi = ">=0.97.0"
 langchain = ">=0.0.200"
-python-dotenv = ">=1.0.0,<2.0.0"
-typing-extensions = "4.5.0"
-urllib3 = "<=1.26.15"
+pydantic = "<2.0.0"
 
 [package.extras]
 gptcache = ["gptcache (>=0.1.31,<0.2.0)"]
@@ -3064,6 +3062,7 @@ files = [
     {file = "PyYAML-6.0.1-cp311-cp311-win_amd64.whl", hash = "sha256:bf07ee2fef7014951eeb99f56f39c9bb4af143d8aa3c21b1677805985307da34"},
     {file = "PyYAML-6.0.1-cp312-cp312-macosx_10_9_x86_64.whl", hash = "sha256:855fb52b0dc35af121542a76b9a84f8d1cd886ea97c84703eaa6d88e37a2ad28"},
     {file = "PyYAML-6.0.1-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:40df9b996c2b73138957fe23a16a4f0ba614f4c0efce1e9406a184b6d07fa3a9"},
+    {file = "PyYAML-6.0.1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:a08c6f0fe150303c1c6b71ebcd7213c2858041a7e01975da3a99aed1e7a378ef"},
     {file = "PyYAML-6.0.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:6c22bec3fbe2524cde73d7ada88f6566758a8f7227bfbf93a408a9d86bcc12a0"},
     {file = "PyYAML-6.0.1-cp312-cp312-musllinux_1_1_x86_64.whl", hash = "sha256:8d4e9c88387b0f5c7d5f281e55304de64cf7f9c0021a3525bd3b1c542da3b0e4"},
     {file = "PyYAML-6.0.1-cp312-cp312-win32.whl", hash = "sha256:d483d2cdf104e7c9fa60c544d92981f12ad66a457afae824d146093b8c294c54"},
@@ -4377,4 +4376,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "9d4a98b15be1650dc9aad3f9d3e9884fd66eab9ee9cc17f2cb7a7b955f1c40a3"
+content-hash = "ebaf0724a01b37991fe302c943d581d67f044e79702ae92dd969f13e9e43e3d0"
