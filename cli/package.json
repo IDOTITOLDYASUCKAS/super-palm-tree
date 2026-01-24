@@ -23,7 +23,7 @@
     "dotenv": "^16.4.5",
     "figlet": "^1.6.0",
     "inquirer": "^10.1.7",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.23",
     "minimist": "^1.2.8",
     "node-fetch": "^3.3.2",
     "simple-git": "^3.25.0",
